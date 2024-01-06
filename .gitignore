@@ -36,22 +36,22 @@
 *.sdf
 *.VC.db
 *.VC.opendb
-
+*/.vs/*
 # Precompiled Assets
-SourceArt/**/*.png
-SourceArt/**/*.tga
+*/SourceArt/**/*.png
+*/SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+*/Binaries/*
+*/Plugins/*/Binaries/*
 
 # Builds
-Build/*
+*/Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
-Build/*/**
-!Build/*/PakBlacklist*.txt
+*/!Build/*/
+*/Build/*/**
+*/!Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
 !Build/**/*.ico
@@ -63,12 +63,12 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
+*/Intermediate/*
 Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
-DerivedDataCache/*
+*/DerivedDataCache/*
 
-Debug/*
-Intermediate/*
-Saved/*
+*/Debug/*
+*/Intermediate/*
+*/Saved/*
